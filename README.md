@@ -1,4 +1,4 @@
-# React Tailwind Dropzone
+# React File Dropzone
 
 A highly customizable, framework-agnostic, and zero-dependency React file dropzone component for modern web applications.
 
@@ -14,7 +14,7 @@ A highly customizable, framework-agnostic, and zero-dependency React file dropzo
 ## Installation
 
 ```bash
-npm install react-tailwind-dropzone
+npm i @devhorus/react-file-dropzone
 ```
 
 *(Note: Tailwind class merging utilities (`clsx` and `tailwind-merge`) will be installed automatically as dependencies of this package).*
@@ -27,7 +27,7 @@ This package requires **React 19 or higher**. It is not compatible with React 18
 
 ```tsx
 import { useState } from "react";
-import { FileDropzone, MediaItem } from "react-tailwind-dropzone";
+import { FileDropzone, MediaItem } from "@devhorus/react-file-dropzone";
 
 export default function App() {
   const [media, setMedia] = useState<MediaItem[]>([]);
