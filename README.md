@@ -16,7 +16,12 @@ A highly customizable, framework-agnostic, and zero-dependency React file dropzo
 ```bash
 npm install react-tailwind-dropzone
 ```
+
 *(Note: Tailwind class merging utilities (`clsx` and `tailwind-merge`) will be installed automatically as dependencies of this package).*
+
+## Compatibility
+
+This package requires **React 19 or higher**. It is not compatible with React 18 or earlier versions due to type system changes in React 19.
 
 ## Usage
 
